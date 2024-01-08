@@ -3,4 +3,4 @@ add x y = x - y
 
 
 subtract :: Int -> Int -> Int
-subtract x y = x + y
+subtract x y = x - y
