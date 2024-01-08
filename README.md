@@ -59,13 +59,15 @@ commands to cover:
 14. `git merge` - unifies two distinct timelines
 15. `git revert` - creates a new commit that reverts changes from a specified commit (it adds another commit, cancelling changes from previous, but does not delete it's predacessor)
 
+---
+
 ### III part - extras
 
 - pull requests - (also known as pr) this is a github way of asking administration of a project to merge your changes into main branch. Typicaly, changes are reviewed by someone (other than author) to double check for any unwanted happenings. Additional checks may be also added using github actions (e.g. running unit tests evry commit, linter checks)
 
 - `.gitignore` - is a file that allows you to specify what git should avoid. E.g: It's a good practice to not commit your executables, and other files generated during runtime
 
-- `.md files` - can be used as a detailed description of your project. `README.md` (like this file) will be displayed on the front page of your repository
+- `.md files` - can be used as a detailed description of your project. `README.md` (like this file) will be displayed on the front page of your repository. Markdown is widely supported and very simple in syntax, making it excellent for documentation
 
 - forking - it's a way to copy a repository. Very similar to branching, but on a repository scale
 
